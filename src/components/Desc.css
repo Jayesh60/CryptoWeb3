@@ -1,0 +1,30 @@
+.main{
+    max-height: 50vh;
+    color: white;
+    
+}
+.mainThing{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.highlighter{
+    display: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.punk{
+    border-radius: 20px;
+    display: flex;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.75;
+}
+.name{
+font-weight: 900;
+}
