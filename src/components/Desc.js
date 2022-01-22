@@ -4,16 +4,16 @@ import Twitter from '@material-ui/icons/Twitter';
 import More from '@material-ui/icons/MoreHoriz';
 import './Desc.css';
 import {useState, useEffect} from 'react';
-import Punklist from './Punklist';
+ import Punklist from './Punklist';
 
 
 
 const Desc = ({selectedPunk, punkListData}) => {
-      const {active, setactive} = useState(0);
+      const {active, Setactive} = useState(0);
 
     useEffect(() => {
-        setactive(punkListData[selectedPunk])
-    }, [Punklist, selectedPunk]);
+        Setactive(punkListData[selectedPunk])
+    }, [Punklist, selectedPunk, Setactive]);
     
 
     return (

@@ -28,7 +28,7 @@ getMyNfts();
      <Header/> 
      {punkListData.length > 0 && (
       <div>
-      {/* <Desc setSelected={setSelected}  punkListData={punkListData}/> */}
+      {/* <Desc punkListData={punkListData} setSelected={setSelected}  /> */}
       <Punklist punkListData={punkListData} setSelectedPunk={setSelectedPunk}/>
       </div>
      )};
